@@ -1,0 +1,15 @@
+{
+  "name": "netflix-clone-react-node",
+  "version": "1.0.0",
+  "description": "+ Install React Dependencies\r + Instal Node Dependencies\r + Start Node App\r + Start React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm start --prefix netflix-api",
+    "client": "npm start --prefix netflix-ui",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
